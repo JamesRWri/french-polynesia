@@ -127,3 +127,42 @@ footer p{
 main{
     padding: 180px 0px 0px 0px;
 }
+#languageculture{
+    text-align: center;
+    margin: 0em 7em 7em 7em;
+}
+#languageculture h1{
+    margin:0px 0px 25px 0px;
+    font-size:42px;
+    color:#2282DD;
+}
+#languageculture h2{
+    color: #2282DD;
+}
+#faq{
+    text-align:center;
+    margin: 0em 7em 7em 7em;
+}
+#faq h1{
+    margin: 0px 0px 25px 0px;
+    font-size:42px;
+    color:#2282DD;
+}
+#faq h2{
+    color:#CE1126;
+}
+.tahititopview{
+    margin: 0em 0em 1em 22em;
+}
+.faqhuts{
+    margin: 0em 0em 1em 22em;
+}
+.faqtitle{
+    color:#2282DD;
+    margin: 0px 0px 25px 0px;
+    font-size:45px;
+    text-align:center;
+}
+.faqtitlep{
+    text-align: center;
+}
