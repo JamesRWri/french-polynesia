@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+#maeva-banner{
+    margin: 0 auto;
+    padding: 0;
+    border: 3px solid #CE1126;
+    border-bottom-style: hidden;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin-top: 40px;
+    text-align: center;
+}
+#maeva-image{
+    width: 1240px;
+    height:870px;
+    padding: 1px 1px 0px 1px;
+}
+#maeva-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#maeva-message{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 90px;
+    text-align: center;
+}
+#maeva-message p{
+    font-size: 34px;
+    color: white;
+    text-shadow: 2px 1px #CE1126;
+}
+.maeva-title{
+    font-size: 80px;
+    color: #2282DD;
+    text-shadow: 2px 2px black;
+}
+.map{
+    background-color: white;
+    color: black;
+    padding: 2px 0px 2px 0px;
+    font-size: 24px;
+}
+.button-box a:visited{
+    color: #2282DD;
+}
+.button-box a:hover{
+    background-color: white;
+    color: #CE1126;
+    font-size: 36px;
+}
+.logo{
+width:70px;
+padding-right:0px;
+padding-top: 5px;
+justify-self: center;
+align-self: center;
+}
+.first-menu{
+    display: inline;
+    text-align: center;
+    margin: 200px;
+    font-size: 20px;
+}
+.first-menu a:link{
+    color:white;
+}
+.first-menu a:hover{
+    color: #CE1126;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color: #2282DD;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color:white;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 10f 10f 10fr 10fr;
+    grid-template-rows: 10fr 10fr 10fr 10fr;
+}
+.five{
+    grid-column: 3/6;
+    text-align: center;
+}
+.vacaydeals{
+    grid-column: 8/10;
+    grid-row: 2/3;
+    text-align: center;
+    padding: 150px;
+}
+.travelinfo{
+   grid-column: 3/6;
+   grid-row: 3/4;
+   text-align: center;
+   padding: 40px 0px 0px 0px;
+}
+.activities{
+   grid-column: 8/10;
+   grid-row: 4/5;
+   text-align: center;
+}
+.vacationsimg{
+    grid-column: 9/10;
+    grid-row: 1/2;
+}
+footer{
+background-color: #2282DD;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+footer p{
+    color: white;
+}
