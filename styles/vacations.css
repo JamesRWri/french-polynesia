@@ -28,8 +28,8 @@
 }
 #maeva-message p{
     font-size: 34px;
-    color: white;
-    text-shadow: 2px 1px #CE1126;
+    color: #CE1126;
+    text-shadow: -1px 2px white;
 }
 .maeva-title{
     font-size: 80px;
@@ -84,24 +84,26 @@ nav a:hover {
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 10f 10f 10fr 10fr;
-    grid-template-rows: 10fr 10fr 10fr 10fr;
+    grid-template-columns: 10f 5f 5fr 10fr;
+    grid-template-rows: 10fr 5fr 5fr 10fr;
 }
 .five{
-    grid-column: 3/6;
+    grid-column: 1/6;
     text-align: center;
+    justify-items: center;
+    padding: 20px 5px 0px 40px;
 }
 .vacaydeals{
     grid-column: 8/10;
     grid-row: 2/3;
     text-align: center;
-    padding: 150px;
+    padding: 150px 40px 150px 40px;
 }
 .travelinfo{
-   grid-column: 3/6;
+   grid-column: 1/4;
    grid-row: 3/4;
    text-align: center;
-   padding: 40px 0px 0px 0px;
+   padding: 40px 0px 0px 40px;
 }
 .activities{
    grid-column: 8/10;
