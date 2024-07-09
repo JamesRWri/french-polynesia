@@ -29,7 +29,8 @@
 #maeva-message p{
     font-size: 34px;
     color: #CE1126;
-    text-shadow: -1px 2px white;
+    text-shadow: 0px 0px white;
+    background: rgba(0, 0, 0, 0.9);
 }
 .maeva-title{
     font-size: 80px;
@@ -84,8 +85,6 @@ nav a:hover {
 }
 .home-grid{
     display: grid;
-    grid-template-columns: 10f 5f 5fr 10fr;
-    grid-template-rows: 10fr 5fr 5fr 10fr;
 }
 .five{
     grid-column: 1/6;
