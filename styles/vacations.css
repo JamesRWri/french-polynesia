@@ -209,12 +209,16 @@ background-color: #2282DD;
 footer p{
     color: black;
 }
-main{
+.pageonegrid{
     padding: 180px 0px 0px 0px;
 }
 #languageculture{
     text-align: center;
     margin: 0em 7em 7em 7em;
+    padding: 30px;
+    background-color: rgb(0,0,0,0.2);
+    border: 2px solid #CE1126;
+    box-shadow: 7px 7px rgb(0,0,0,0.6);
 }
 #languageculture h1{
     margin:0px 0px 25px 0px;
@@ -223,6 +227,12 @@ main{
 }
 #languageculture h2{
     color: #2282DD;
+}
+.danceuse{
+    border-radius: 50%;
+}
+.vaa{
+    border-radius: 50%;
 }
 #faq{
     text-align:center;
