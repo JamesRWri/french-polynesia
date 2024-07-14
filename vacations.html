@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>French Polynesia Vacations</title>
     <link rel="stylesheet" href="styles/vacations.css">
+<script>
+    // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = mooreaimage.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
 </head>
 <body>
     <header>
@@ -42,7 +64,22 @@
     <div class="vacaydeals">
             <h2>Vacation Deals</h2>
             <p>Want to get a great vacation for a good price? Check out our vacation bundles here!</p> </div>
-                <img class="vacationsimg" src="images/Moorea_web_photo.webp" alt="moorea image" width="500" height="360">
+                <!-- Trigger the Modal -->
+<img id="myImg" src="images/Moorea_web_photo.webp" alt="moorea image" style="width:500px;max-width:500px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" src="images/Moorea_web_photo.webp" id="img01" alt="moorea image">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
     <div class="travelinfo">
             <h2>Travel Information</h2>
             <p>Being in the middle of the south pacific isn't any easy ride to get to. Look around here on the best way to travel to the 
