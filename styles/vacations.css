@@ -212,6 +212,9 @@ footer p{
 .pageonegrid{
     padding: 180px 0px 0px 0px;
 }
+#faqtop{
+    padding: 180px 0px 0px 0px;
+}
 #languageculture{
     text-align: center;
     margin: 0em 7em 7em 7em;
@@ -248,6 +251,9 @@ footer p{
 }
 .tahititopview{
     margin: 0em 0em 1em 22em;
+    border-radius: 20%;
+    border: solid 2px #CE1126;
+    text-align: center;
 }
 .faqhuts{
     margin: 0em 0em 1em 22em;
@@ -261,3 +267,65 @@ footer p{
 .faqtitlep{
     text-align: center;
 }
+.faqactivities{
+    text-align: center;
+    margin: 0em 7em 7em 7em;
+    padding: 60px 30px 30px 30px;
+    background-color: rgb(0,0,0,0.2);
+    border: 2px solid #CE1126;
+    box-shadow: 7px 7px rgb(0,0,0,0.6);
+    margin-top: 60px;
+}
+.completeactions{
+    text-align: center;
+    margin: 0em 7em 7em 7em;
+    padding: 30px;
+    background-color: rgb(0,0,0,0.2);
+    border: 2px solid #CE1126;
+    box-shadow: 7px 7px rgb(0,0,0,0.6);
+}
+.oursite{
+    text-align: center;
+    margin: 0em 7em 7em 7em;
+    padding: 30px;
+    background-color: rgb(0,0,0,0.2);
+    border: 2px solid #CE1126;
+    box-shadow: 7px 7px rgb(0,0,0,0.6);
+}
+.container {
+    position: relative;
+    width: 50%;
+    margin-left: 310px;
+  }
+.containerimage{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: solid 2px #CE1126;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 2px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2282DD;
+  }
+.container:hover .overlay {
+    opacity: 0.8;
+  }
+.text {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
