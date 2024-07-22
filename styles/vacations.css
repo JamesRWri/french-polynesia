@@ -98,7 +98,7 @@ nav a:hover {
     grid-row: 1/2;
     text-align: center;
     justify-items: center;
-    padding: 100px 5px 0px 40px;
+    padding: 25% 5px 0px 15px;
 }
 .vacaydeals{
     grid-column: 4/6;
@@ -111,6 +111,19 @@ nav a:hover {
    grid-row: 4/5;
    text-align: center;
    padding: 100px 0px 0px 40px;
+}
+.flights{
+    background-color: white;
+    color: black;
+    padding: 2px 0px 2px 0px;
+    font-size: 24px;
+}
+.fivearchipels{
+    grid-column:4/5;
+    grid-row:4/5;
+    max-width:500px;
+    max-height:400px;
+    margin: 20% 20% 20% 0%;
 }
 .activities{
    grid-column: 4/6;
