@@ -98,31 +98,34 @@ nav a:hover {
     grid-row: 1/2;
     text-align: center;
     justify-items: center;
-    padding: 20px 5px 0px 40px;
+    padding: 100px 5px 0px 40px;
 }
 .vacaydeals{
     grid-column: 4/6;
     grid-row: 1/2;
     text-align: center;
-    padding: 400px 40px 150px 40px;
+    padding: 600px 40px 150px 40px;
 }
 .travelinfo{
    grid-column: 1/3;
    grid-row: 4/5;
    text-align: center;
-   padding: 0px 0px 0px 40px;
+   padding: 100px 0px 0px 40px;
 }
 .activities{
    grid-column: 4/6;
    grid-row: 5/6;
    text-align: center;
+   padding: 100px 0px 0px 0px;
 }
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    margin-left: 200px;
+    position: relative;
+    left: 100%;
+    top: 50%;
   }
   
   #myImg:hover {opacity: 0.7;}
@@ -250,10 +253,11 @@ footer p{
     color:#CE1126;
 }
 .tahititopview{
-    margin: 0em 0em 1em 22em;
+    position: relative;
+    top: 50%;
+    left: 30%;
     border-radius: 20%;
     border: solid 2px #CE1126;
-    text-align: center;
 }
 .faqhuts{
     margin: 0em 0em 1em 22em;
@@ -295,7 +299,7 @@ footer p{
 .container {
     position: relative;
     width: 50%;
-    margin-left: 310px;
+    margin: 0 auto;
   }
 .containerimage{
     display: block;
