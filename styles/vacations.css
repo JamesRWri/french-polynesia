@@ -102,15 +102,15 @@ nav a:hover {
 }
 .vacaydeals{
     grid-column: 4/6;
-    grid-row: 1/2;
+    grid-row: 2/3;
     text-align: center;
-    padding: 600px 40px 150px 40px;
+    padding: 400px 40px 150px 0px;
 }
 .travelinfo{
    grid-column: 1/3;
    grid-row: 4/5;
    text-align: center;
-   padding: 100px 0px 0px 40px;
+   padding: 200px 0px 0px 40px;
 }
 .flights{
     background-color: white;
@@ -118,18 +118,25 @@ nav a:hover {
     padding: 2px 0px 2px 0px;
     font-size: 24px;
 }
+.tahititourisme{
+    background-color: white;
+    color: black;
+    padding: 2px 0px 2px 0px;
+    font-size: 24px;
+}
+.homeimage{
+    grid-column:1/2;
+    grid-row:2/3;
+    max-width:1200px;
+    max-height:500px;
+    margin: 70% 0% 20% 20%;
+}
 .fivearchipels{
     grid-column:4/5;
     grid-row:4/5;
     max-width:500px;
     max-height:400px;
-    margin: 20% 20% 20% 0%;
-}
-.activities{
-   grid-column: 4/6;
-   grid-row: 5/6;
-   text-align: center;
-   padding: 100px 0px 0px 0px;
+    margin: 60% 20% 20% 0%;
 }
 /* Style the Image Used to Trigger the Modal */
 #myImg {
@@ -216,7 +223,7 @@ nav a:hover {
 footer{
 background-color: #2282DD;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
