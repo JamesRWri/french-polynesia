@@ -353,3 +353,351 @@ footer p{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  @media only screen and (max-width: 700px){
+    #maeva-banner{
+        margin: 0 auto;
+        padding: 0;
+        border: 3px solid #CE1126;
+        border-bottom-style: hidden;
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        margin-top: 40px;
+        text-align: center;
+    }
+    #maeva-image{
+        width: 1240px;
+        height:870px;
+        padding: 1px 1px 0px 1px;
+    }
+    #maeva-box{
+        grid-column: 1/4;
+        grid-row: 1/3;
+        z-index: -1;
+    }
+    #maeva-message{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 90px;
+        text-align: center;
+    }
+    #maeva-message p{
+        font-size: 34px;
+        color: #2282DD;
+        text-shadow: 0px 0px white;
+        background: rgba(0, 0, 0, 0.9);
+    }
+    .maeva-title{
+        font-size: 80px;
+        color: #2282DD;
+        text-shadow: 2px 2px black;
+    }
+    .map{
+        background-color: white;
+        color: black;
+        padding: 2px 0px 2px 0px;
+        font-size: 24px;
+    }
+    .button-box a:visited{
+        color: #CE1126;
+    }
+    .button-box a:hover{
+        background-color: white;
+        color: #CE1126;
+        font-size: 36px;
+    }
+    .logo{
+    width:70px;
+    padding-right:0px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    }
+    .first-menu{
+        display: inline;
+        text-align: center;
+        margin: 200px;
+        font-size: 20px;
+    }
+    .first-menu a:visited{
+        color:black;
+        background-color: white;
+    }
+    .first-menu a:link{
+        color:black;
+        background-color: white;
+    }
+    .first-menu a:hover{
+        font-size: 30px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        border: 2px solid black;
+        background-color: #2282DD;
+    }
+    nav a{
+        text-align: center;
+        text-decoration: none;
+    }
+    nav a:hover {
+        background-color:white;
+    }
+    .home-grid{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+    .five{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        text-align: center;
+        justify-items: center;
+        padding: 25% 5px 0px 15px;
+    }
+    .vacaydeals{
+        grid-column: 4/6;
+        grid-row: 2/3;
+        text-align: center;
+        padding: 400px 40px 150px 0px;
+    }
+    .travelinfo{
+       grid-column: 1/3;
+       grid-row: 4/5;
+       text-align: center;
+       padding: 200px 0px 0px 40px;
+    }
+    .flights{
+        background-color: white;
+        color: black;
+        padding: 2px 0px 2px 0px;
+        font-size: 24px;
+    }
+    .tahititourisme{
+        background-color: white;
+        color: black;
+        padding: 2px 0px 2px 0px;
+        font-size: 24px;
+    }
+    .homeimage{
+        grid-column:1/2;
+        grid-row:2/3;
+        max-width:1200px;
+        max-height:500px;
+        margin: 70% 0% 20% 20%;
+    }
+    .fivearchipels{
+        grid-column:4/5;
+        grid-row:4/5;
+        max-width:500px;
+        max-height:400px;
+        margin: 60% 20% 20% 0%;
+    }
+    /* Style the Image Used to Trigger the Modal */
+    #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        position: relative;
+        left: 100%;
+        top: 50%;
+      }
+      
+      #myImg:hover {opacity: 0.7;}
+      
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+      }
+      
+      /* Modal Content (Image) */
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+      }
+      
+      /* Caption of Modal Image (Image Text) - Same Width as the Image */
+      #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+      }
+      
+      /* Add Animation - Zoom in the Modal */
+      .modal-content, #caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+      }
+      
+      @keyframes zoom {
+        from {transform:scale(0)}
+        to {transform:scale(1)}
+      }
+      
+      /* The Close Button */
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    footer{
+    background-color: #2282DD;
+        padding: 25px 50px;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid black;
+    }
+    footer p{
+        color: black;
+    }
+    .pageonegrid{
+        padding: 180px 0px 0px 0px;
+    }
+    #faqtop{
+        padding: 180px 0px 0px 0px;
+    }
+    #languageculture{
+        text-align: center;
+        margin: 0em 7em 7em 7em;
+        padding: 30px;
+        background-color: rgb(0,0,0,0.2);
+        border: 2px solid #CE1126;
+        box-shadow: 7px 7px rgb(0,0,0,0.6);
+    }
+    #languageculture h1{
+        margin:0px 0px 25px 0px;
+        font-size:42px;
+        color:#2282DD;
+    }
+    #languageculture h2{
+        color: #2282DD;
+    }
+    .danceuse{
+        border-radius: 50%;
+    }
+    .vaa{
+        border-radius: 50%;
+    }
+    #faq{
+        text-align:center;
+        margin: 0em 7em 7em 7em;
+    }
+    #faq h1{
+        margin: 0px 0px 25px 0px;
+        font-size:42px;
+        color:#2282DD;
+    }
+    #faq h2{
+        color:#CE1126;
+    }
+    .tahititopview{
+        position: relative;
+        top: 50%;
+        left: 30%;
+        border-radius: 20%;
+        border: solid 2px #CE1126;
+    }
+    .faqhuts{
+        margin: 0em 0em 1em 22em;
+    }
+    .faqtitle{
+        color:#2282DD;
+        margin: 0px 0px 25px 0px;
+        font-size:45px;
+        text-align:center;
+    }
+    .faqtitlep{
+        text-align: center;
+    }
+    .faqactivities{
+        text-align: center;
+        margin: 0em 7em 7em 7em;
+        padding: 60px 30px 30px 30px;
+        background-color: rgb(0,0,0,0.2);
+        border: 2px solid #CE1126;
+        box-shadow: 7px 7px rgb(0,0,0,0.6);
+        margin-top: 60px;
+    }
+    .completeactions{
+        text-align: center;
+        margin: 0em 7em 7em 7em;
+        padding: 30px;
+        background-color: rgb(0,0,0,0.2);
+        border: 2px solid #CE1126;
+        box-shadow: 7px 7px rgb(0,0,0,0.6);
+    }
+    .oursite{
+        text-align: center;
+        margin: 0em 7em 7em 7em;
+        padding: 30px;
+        background-color: rgb(0,0,0,0.2);
+        border: 2px solid #CE1126;
+        box-shadow: 7px 7px rgb(0,0,0,0.6);
+    }
+    .container {
+        position: relative;
+        width: 50%;
+        margin: 0 auto;
+      }
+    .containerimage{
+        display: block;
+        width: 100%;
+        height: auto;
+        border: solid 2px #CE1126;
+      }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 2px;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #2282DD;
+      }
+    .container:hover .overlay {
+        opacity: 0.8;
+      }
+    .text {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    }
